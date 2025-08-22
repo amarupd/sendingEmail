@@ -50,6 +50,10 @@ This project allows you to automatically send emails with attachments to multipl
    ```env
    YOUR_APP_PASSWORD="xxxx xxxx xxxx xxxx"
    YOUR_EMAIL="your.email@gmail.com"
+   YOUR_MOBILE = "7272096364"
+   LinkedIn= 'https://www.linkedin.com/in/amar-upd/'
+   GitHub= 'https://github.com/amarupd'
+   Portfolio= 'https://www.amarduttupadhyay.in'
    ```
 
    **Note**: For Gmail, generate an **App Password** from your Google Account.

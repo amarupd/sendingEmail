@@ -35,11 +35,11 @@ Thank you for your time and consideration.
 
 Best regards,
 Amar Dutt Upadhyay
-📞 +91 7272096364
-📧 amarduttupadhyay@gmail.com
-LinkedIn: https://www.linkedin.com/in/amar-upd/
-GitHub: https://github.com/amarupd
-Portfolio: https://www.amarduttupadhyay.in
+📞 +91${process.env.YOUR_MOBILE}
+📧 ${process.env.YOUR_EMAIL}
+LinkedIn: ${process.env.LinkedIn}
+GitHub: ${process.env.GitHub}
+Portfolio: ${process.env.Portfolio}
 `;
 
 // ---------- READ EMAILS FROM JSON ---------- //
