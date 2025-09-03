@@ -15,7 +15,7 @@ const EMAIL_BODY =
 
 I hope this message finds you well.
 
-I am writing to express my interest in a Full Stack Developer opportunity at your organization. With over 3+ years of experience building scalable and high-performance web applications, I specialize in Node.js, Express.js, React.js, MySQL, MongoDB, Redis, and Socket.IO.
+I am writing to express my interest in a Nodejs Developer opportunity at your organization. With over 3 years and 2 months of experience building scalable and high-performance web applications, I specialize in Node.js, Express.js, React.js, MySQL, MongoDB, Redis, and Socket.IO.
 
 In my current role at Masterwiz Technologies Pvt. Ltd., I have led full-cycle development—from database design and backend architecture to dynamic frontend interfaces—for several production-grade platforms:
 
