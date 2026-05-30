@@ -8,38 +8,46 @@ require("dotenv").config();
 // Replace with your actual details
 const YOUR_EMAIL = process.env.YOUR_EMAIL;     // your email
 const YOUR_APP_PASSWORD = process.env.YOUR_APP_PASSWORD // App Password (not Gmail password)
-const RESUME_PATH = "./Amar_Dutt_Upadhyay_3YOE_NodeJS.pdf";            // path to your resume
-const EMAIL_SUBJECT = "Application for Nodejs developer – Resume Attached";
+const RESUME_PATH = "./Amar_Dutt_Upadhyay_4YOE_FSD_JS.pdf";            // path to your resume
+const EMAIL_SUBJECT = "Application for Full Stack / Node.js Developer Opportunity";
 const EMAIL_BODY =
-`Dear HR,
+  `Dear HR,
 
-I hope this message finds you well.
+I hope you are doing well.
 
-I am writing to express my interest in a Nodejs Developer opportunity at your organization. With over 3 years and 2 months of experience building scalable and high-performance web applications, I specialize in Node.js, Express.js, React.js, MySQL, MongoDB, Redis, and Socket.IO.
+I am writing to express my interest in a Full Stack / Node.js Developer opportunity at your organization. I have 4+ years of hands-on experience building scalable, high-performance web applications using Node.js, Nest.js, React.js, Next.js, MySQL, MongoDB, Redis, RabbitMQ, and Socket.IO.
 
-In my current role at Masterwiz Technologies Pvt. Ltd., I have led full-cycle development—from database design and backend architecture to dynamic frontend interfaces—for several production-grade platforms:
+Currently, I am working as a Software Development Engineer at Masterwiz Technologies Pvt. Ltd., where I have been actively involved in designing and developing production-grade applications with a strong focus on scalability, performance optimization, and real-time systems.
 
-🔹 MyMaster11 – A fantasy sports platform (Dream11-like) where I built RESTful APIs, real-time leaderboard updates with Socket.IO, integrated Redis caching, and implemented contest workflows with RabbitMQ. I also contributed to the admin dashboard using React.js for real-time data monitoring and control.
+Some of the key projects I have worked on include:
 
-🔹 Sportswiz – A real-time sports score and news platform built with Node.js, MySQL, React.js, and Redis, delivering live commentary and score updates with millisecond latency, optimized for thousands of concurrent users.
+🔹 MyMaster11
+A fantasy sports platform similar to Dream11, where I developed scalable REST APIs, real-time leaderboard systems using Socket.IO, Redis caching, contest management workflows, and background job processing with RabbitMQ. I also contributed to frontend modules and admin dashboards using React.js.
 
-🔹 Opinion Trading – An opinion-based trading app where I implemented second-wise real-time updates using Socket.IO and developed both backend transaction processing and frontend UI components in React.js for a seamless trading experience.
+🔹 Sportswiz
+A live cricket score and sports information platform delivering real-time scores, commentary, schedules, and player statistics. Built using Node.js, Nest.js, MySQL, Redis, RabbitMQ, and Socket.IO to support thousands of concurrent users with low-latency updates.
 
-🔹 MyMaster11 SportsBuy – An e-commerce platform for sports merchandise where I developed both the backend and the frontend (React.js) including product listings, payment gateway integration, admin features, and S3-based image management.
+🔹 Opinion Trading Platform
+Developed a real-time opinion trading application with second-wise live price fluctuations using Socket.IO. Worked on backend architecture, transaction handling, Redis optimization, RabbitMQ queues, and interactive frontend interfaces for seamless user experience.
 
-I take pride in writing clean, efficient code and building systems that are fast, scalable, and user-centric. I am well-versed in JWT authentication, microservices, CI/CD, cloud deployment (AWS), and modern frontend practices with React Hooks, Context API, Redux, and TailwindCSS.
+🔹 Sportswiz Ecommerce Platform
+Built a complete ecommerce platform for sports merchandise, including backend APIs, admin dashboard, product management, inventory tracking, and frontend ecommerce experience using React.js and Next.js. Integrated Redis caching and AWS S3 for optimized performance and scalable media handling.
 
-Please find my resume attached for your review. I would welcome the opportunity to discuss how my skills and experience align with your team’s goals.
+I am passionate about building efficient, scalable, and user-focused applications. My expertise includes REST APIs, microservices architecture, JWT authentication, AWS deployment, Redis optimization, Docker, CI/CD pipelines, and modern frontend development practices.
 
-Thank you for your time and consideration.
+Portfolio: ${process.env.Portfolio}
+LinkedIn: ${process.env.LinkedIn}
+GitHub: ${process.env.GitHub}
+Ptojects: ${process.env.Projects}
+
+Please find my resume attached for your consideration. I would welcome the opportunity to discuss how my skills and experience can contribute to your team.
+
+Thank you for your time and consideration. I look forward to hearing from you.
 
 Best regards,
 Amar Dutt Upadhyay
 📞 +91${process.env.YOUR_MOBILE}
 📧 ${process.env.YOUR_EMAIL}
-LinkedIn: ${process.env.LinkedIn}
-GitHub: ${process.env.GitHub}
-Portfolio: ${process.env.Portfolio}
 `;
 
 // ---------- READ EMAILS FROM JSON ---------- //
