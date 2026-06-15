@@ -82,7 +82,7 @@ async function sendEmails() {
         text: EMAIL_BODY,
         attachments: [
           {
-            filename: "Amar_Dutt_Upadhyay_3YOE_NodeJS.pdf",
+            filename: "Amar_Dutt_Upadhyay_4YOE_FSD_JS.pdf",
             path: RESUME_PATH,
           },
         ],
